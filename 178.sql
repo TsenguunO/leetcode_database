@@ -13,3 +13,5 @@ select A.score, B.score_rank as 'rank' from Scores           AS A
 join CTE_rank AS B
 on A.score = B.score
 order by A.score desc
+
+
